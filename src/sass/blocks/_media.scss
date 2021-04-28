@@ -124,12 +124,12 @@
     }
     .advantages
     {
-        padding-top: 45px;
-        padding-bottom: 39px;
-        &__header
+        .title
         {
             font-size: 24px;
         }
+        padding-top: 45px;
+        padding-bottom: 39px;
         &__wrapper
         {
             margin-top: 14px;
