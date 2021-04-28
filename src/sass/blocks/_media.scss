@@ -1,0 +1,152 @@
+@media (max-width: 1200px)
+{
+    
+}
+
+@media (max-width: 991px)
+{
+    .header
+    {
+        &__phone
+        {
+            font-size: 15px;
+        }
+        &__logo
+        {
+            width: 200px;
+        }
+        &__official
+        {
+            font-size: 11px;
+            span
+            {
+                font-size: 16px;
+            }
+        }
+    }
+    .promo
+    {
+        padding:21px 15px 93px 15px;
+        min-height: 450px;
+        background: url(../img/first_screen.jpg) left (center/cover) no-repeat;
+        &__header
+        {
+            font-size: 35px;
+        }
+        &__subheader
+        {
+            font-size: 17px;
+        }
+        &__icons
+        {
+            width: 363px;
+        }
+        &__icon
+        {
+            img
+            {
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+
+    .advantages
+    {
+        padding: 70px 15px 78px 15px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .promo
+    {
+        background: url(../img/first_screen.jpg) left (center/cover) no-repeat;
+    }
+    .advantages
+    {
+        &__descr
+        {
+            width: 187px;
+            font-size: 13px;
+        }
+        &__subtitle
+        {
+            font-size: 17px;
+        }
+    }
+}
+
+@media (max-width: 665px)
+{
+    .advantages
+    {
+        &__descr
+        {
+            width: 157px;
+        }
+    }
+}
+
+@media (max-width: 575px)
+{
+    .button_header
+    {
+        width: 120px;
+        font-size: 11px;
+    }
+    .button_main
+        {
+            width: 250px;
+        }
+    .header
+    {
+        &__logo
+        {
+            margin-right: 10px;
+        }
+        &__official
+        {
+            display: none;
+        }
+        &__phone
+        {
+            font-size: 13px;
+        }
+    }
+    .promo
+    {
+        padding-bottom: 38px;
+        &__icons
+        {
+            width: 305px;
+        }
+    }
+    .advantages
+    {
+        padding-top: 45px;
+        padding-bottom: 39px;
+        &__header
+        {
+            font-size: 24px;
+        }
+        &__wrapper
+        {
+            margin-top: 14px;
+            flex-direction: column;
+        }
+        &__descr
+        {
+            width: 285px;
+            font-size: 15px;
+        }
+        &__item
+        {
+            margin-top: 29px;
+        }
+        &__subtitle
+        {
+            margin-top: 15px;
+        }
+    }
+}
