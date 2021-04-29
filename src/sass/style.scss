@@ -10,14 +10,6 @@
 	margin: 0 auto;
 }
 
-@import 'blocks/promo' ;
-@import 'blocks/header' ;
-@import 'blocks/buttons' ;
-@import 'blocks/advantages' ;
-@import 'blocks/media';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-
 .title
 {
     font-size: 30px;
@@ -32,3 +24,13 @@
 		color: #ffffff;		
 	}
 }
+
+
+@import 'blocks/promo' ;
+@import 'blocks/header' ;
+@import 'blocks/buttons' ;
+@import 'blocks/advantages' ;
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/media';
+
