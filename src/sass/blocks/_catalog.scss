@@ -47,7 +47,7 @@
     {
         margin-top: 60px;
         display: flex;
-        justify-content: space-between;
+
         flex-wrap: wrap;
         display: none;
         &_active
@@ -81,6 +81,7 @@
         padding: 20px 19px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
+        margin-right: 10px;
         &__img
         {
             max-width: 100%;
