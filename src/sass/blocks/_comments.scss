@@ -4,7 +4,7 @@
     min-height: 927px;
     padding-bottom:71px;
     hr 
-    {
+    {  
         margin-top: 48px;
         margin-bottom: 53px;
         width: 940px;
@@ -18,6 +18,7 @@
     &__comment
     {
         display: flex;
+        justify-content: center;
         align-items: center;
         &:nth-child(2)// что бы работало с первым элементов я должен писать второй, почему так? - без понятия
         {
@@ -27,6 +28,7 @@
     &__text
     {
         margin-left: 60px;
+        margin-right: 60px;
     }
     &__name
     {
@@ -49,7 +51,8 @@
         font-size: 16px;
         font-weight: 300;
         text-align: left;
-        color: #0d0d0d;      
+        color: #0d0d0d; 
+        line-height: normal;     
     }
   
 }
