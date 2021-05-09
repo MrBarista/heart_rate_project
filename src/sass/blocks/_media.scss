@@ -298,7 +298,7 @@
 	.consultation
 	{   
 		padding-top: 35px;
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 		min-height: 490px;
 		&__descr
 		{  
@@ -454,6 +454,34 @@
 		iframe
 		{
 			height: 200px;
+		}
+	}
+	.modal
+	{
+		width: 300px;
+    	min-height: 400px;
+		padding: 30px 20px 30px 20px;
+		&__close
+		{
+			font-size: 32px;
+			right: 5px;
+			top: -4px;
+		}
+		&__subtitle
+		{
+			font-size: 17px;
+		}
+		&__descr
+		{
+			font-size: 12px;
+		}
+		.feed-form_mt25
+		{
+			width: 260px;
+			.button_submit
+			{
+				height: 47px;
+			}
 		}
 	}
 }
