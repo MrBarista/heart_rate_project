@@ -134,11 +134,13 @@ $(function() {
 					$('.pageup').fadeOut();
 				}
 			});
-
-			 $("a[href^='#']").click(function(){ // какой то атрибут href будет начинатьься с решётки
+				// странно скрипт отрабатывает; вообще, и без него скролится плавно; 
+			/*  $("a[href^='#']").click(function(){ // какой то атрибут href будет начинатьься с решётки
                 const _href = $(this).attr("href");
                 $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
                 return false;
-        	});
+        	}); */
+
+			
 
 		});
